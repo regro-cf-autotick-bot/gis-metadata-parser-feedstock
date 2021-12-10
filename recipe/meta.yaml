@@ -11,7 +11,7 @@ source:
   sha256: 5008cab4d40667d5248b2aba4db9b416f50c1139045c9b2faadd2c199cb201a4
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -41,4 +41,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - dharvey-consbio
     - jlaura
